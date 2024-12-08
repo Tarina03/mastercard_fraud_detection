@@ -31,6 +31,16 @@ The data used in this project is publicly sourced from Kaggle. This is a simulat
 * **Source**: [Link to the data set](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 * **Details**: Features include transaction merchant, category, amount, and date/time. 
 
+## Data Preprocessing
+Data preprocessing involved transforming the raw data into a suitable format for machine learning:
+
+- **Transaction Characteristics**: Log transformation for transaction amounts and extraction of timing features (transaction hour, day of week).
+- **Cumulative Metrics**: Added transaction count and 7-day spending to track user activity.
+- **Fraud Indicators**: Included fraud flag for recent fraud detection and used transaction frequency and spending velocity as fraud indicators.
+- **Demographic Factors**: Used age and job type to analyze fraud patterns across demographics.
+- **Distance and Location**: Calculated distances between cardholder's home and merchant locations, and between consecutive transactions, to detect location anomalies.
+- **Data Cleaning & Balancing**: Handled missing values, outliers, and balanced the dataset using SMOTE for fraud class.
+
 ## Installation
 To use this project, follow these steps:
 
@@ -126,7 +136,7 @@ Thank you for your contribution! Together, we can learn more together and make t
 This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/Anas10202/mastercard_fraud_detection/blob/main/LICENSE) file for details.
 
 ## Credits and Acknowledgements
-* **Team Members**: Anas Ahmed, [Ashley Nguyen](https://www.linkedin.com/ashleytlnguyen), Tarina Priti
+* **Team Members**: [Anas Ahmed](https://www.linkedin.com/in/anas-ahmed1/), [Ashley Nguyen](https://www.linkedin.com/ashleytlnguyen), Tarina Priti
 * **Mastercard Challenge Advisors**: Vikas Bishnoi, Dhivya Jayaraman
 * **Cornell Tech Course Support/TA**: Dev Ashar
 ___
