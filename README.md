@@ -1,4 +1,4 @@
-# Mastercard Credit Card Fraud Detection Project
+# Mastercard Credit Card Fraud Detection Challenge Project
 ## Introduction
 #### Project Overview
 This project aims to detect fraudulent credit card transactions using various machine learning algorithms. The goal is to create a model that can identify suspicious activities and prevent losses for cardholders, merchants, and financial institutions.
