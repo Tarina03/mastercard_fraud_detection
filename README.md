@@ -62,8 +62,8 @@ The table below summarizes the performance metrics of various models used for th
 | Logistic Regression |	0.998 |	0.99 |
 | Neural Network | 0.999 |	1.00 |
 
-Mean Accuracy indicates the average performance of the model in making correct predictions.
-Mean Precision-Recall represents the balance between precision and recall, critical for tasks with imbalanced datasets.
+**Mean Accuracy** indicates the average performance of the model in making correct predictions.
+**Mean Precision-Recall** represents the balance between precision and recall, critical for tasks with imbalanced datasets.
 
 #### Key Findings
 - Imbalanced Dataset
@@ -77,6 +77,21 @@ Mean Precision-Recall represents the balance between precision and recall, criti
 
 
 ### Potential Next Steps
+
+**Hyperparameter Tuning**
+
+Explore optimizing hyperparameters for algorithms like XGBoost, Random Forest, and Neural Network using techniques such as:
+Grid Search or Random Search
+
+Example parameters to tune:
+For XGBoost: Learning rate, max depth, subsample ratio
+For Neural Networks: Number of hidden layers, activation functions, learning rate
+
+**Feature Engineering**
+
+Include/Exclude Features:
+Evaluate the importance of each feature using techniques like feature importance.
+Experiment with removing less influential features or combining features to create new ones.
 
 
 
