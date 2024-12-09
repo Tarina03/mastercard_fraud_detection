@@ -52,6 +52,18 @@ Neural Networks
 
 ### Results and Key Findings
 #### Results
+The table below summarizes the performance metrics of various models used for the task:
+
+| Model Name |	Mean Accuracy |	Mean Precision-Recall |
+| ---------- | -------------- | --------------------- |
+| Decision Tree |	0.998 |	0.98 |
+| Random Forest |	0.999 |	0.99 |
+| XGBoost |	0.999 |	1.00 |
+| Logistic Regression |	0.998 |	0.99 |
+| Neural Network | 0.999 |	1.00 |
+
+Mean Accuracy indicates the average performance of the model in making correct predictions.
+Mean Precision-Recall represents the balance between precision and recall, critical for tasks with imbalanced datasets.
 
 #### Key Findings
 - Imbalanced Dataset
