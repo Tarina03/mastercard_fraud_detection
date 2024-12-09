@@ -73,25 +73,23 @@ The table below summarizes the performance metrics of various models used for th
   - Encoding categorical features created excessive columns
   - Increased dimensionality
 
-### Visualizations
-
 
 ### Potential Next Steps
 
-**Hyperparameter Tuning**
+- **Hyperparameter Tuning**
 
-Explore optimizing hyperparameters for algorithms like XGBoost, Random Forest, and Neural Network using techniques such as:
-Grid Search or Random Search
+  Explore optimizing hyperparameters for algorithms like XGBoost, Random Forest, and Neural Network using techniques such as:
+  Grid Search or Random Search
 
-Example parameters to tune:
-For XGBoost: Learning rate, max depth, subsample ratio
-For Neural Networks: Number of hidden layers, activation functions, learning rate
+  Example parameters to tune:
+  For XGBoost: Learning rate, max depth, subsample ratio
+  For Neural Networks: Number of hidden layers, activation functions, learning rate
 
-**Feature Engineering**
+- **Feature Engineering**
 
-Include/Exclude Features:
-Evaluate the importance of each feature using techniques like feature importance.
-Experiment with removing less influential features or combining features to create new ones.
+  Include/Exclude Features:
+  Evaluate the importance of each feature using techniques like feature importance.
+  Experiment with removing less influential features or combining features to create new ones.
 
 
 
